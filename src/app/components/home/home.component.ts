@@ -2,9 +2,9 @@ import { Component, OnInit, ViewChild} from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import {MatSort, Sort} from '@angular/material/sort';
-import { Pagination } from 'src/app/models/Pagination';
-import { IUserList } from 'src/app/models/UserList';
-import { UsersService } from 'src/app/services/users/users.service';
+import { Pagination } from '../../models/Pagination';
+import { IUserList } from '../../models/UserList';
+import { UsersService } from '../../services/users/users.service';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
